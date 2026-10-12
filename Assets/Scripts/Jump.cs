@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Jump : MonoBehaviour
@@ -22,4 +23,7 @@ public class Jump : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); 
         }
     }
+
+   
+   
 }
